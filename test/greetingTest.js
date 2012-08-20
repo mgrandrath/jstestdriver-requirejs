@@ -6,7 +6,7 @@ require([
 
   TestCase('greetingTest', {
 
-    testMessageshouldBeDefined: function() {
+    testMessageShouldBeDefined: function() {
       assertNotUndefined('greeting.message should be defined', greeting.message);
     },
 
