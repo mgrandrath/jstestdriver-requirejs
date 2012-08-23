@@ -9,6 +9,8 @@ This project demonstrates how you can test AMD modules using JSTestDriver.  Unli
 2. cd to the project's root directory
 3. Start the JSTestDriver server: `java -jar bin/JsTestDriver-1.3.4.b.jar --port 9876`
 4. Open `http://localhost:9876/capture` in the browser(s) you want to run the tests in
+
+   You can use [phantomJS](http://phantomjs.org/) to run the tests with the included runner: `/path/to/phantomjs test/lib/phantom_runner.js http://localhost:9876/capture`
 5. Run the test suite: `java -jar bin/JsTestDriver-1.3.4.b.jar --reset --tests all`
 
 
