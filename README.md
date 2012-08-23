@@ -1,6 +1,6 @@
 # JSTestDriver + RequireJS #
 
-This project demonstrates how you can test AMD modules using JSTestDriver.  Unlike other setups like podefr/reqjs-jstd these modules can be anonymous modules.
+This project demonstrates how you can test AMD modules using JSTestDriver.  Unlike other setups like [podefr/reqjs-jstd](https://github.com/podefr/reqjs-jstd) these modules can be anonymous modules.
 
 
 ## Run the tests ##
