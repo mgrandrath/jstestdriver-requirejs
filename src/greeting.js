@@ -1,7 +1,7 @@
-define(function() {
+define(['world'], function(world) {
 
   return {
-    message: 'Hello world!'
+    message: 'Hello ' + world + '!'
   };
 
 });
