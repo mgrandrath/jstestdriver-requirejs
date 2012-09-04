@@ -1,4 +1,4 @@
-require([
+define([
   'greeting'
 ], function(
   greeting
